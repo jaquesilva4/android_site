@@ -5,7 +5,7 @@
 
 @font-face {
     font-family:'Droid' ;
-    src: url('IDroid.otf');
+    src: url('fontes/IDroid.otf');
     font-weight: normal;
     font-style: normal;
 }
@@ -13,7 +13,7 @@
 
 
 body{
-    background-color: #7AE1A8;
+    background-color: #C5EBD6;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     text-align: justify;
@@ -30,16 +30,28 @@ header > p{
     text-align: center;
 }
 
-h1{
+header > h1{
     font-family:'Bebas Neue', sans-serif;;
     text-align: center;
 }
 
+main > section > article > h1{
+    background-color: #c5ebd6;
+    padding: 10px;
+    font-family: 'Droid', Times, serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    color:#325C45;
+}
+
 h2{
+    background-color: #c5ebd6;
+    padding: 10px;
     font-family: 'Droid', Times, serif;
     font-size: 1em;
     font-weight: normal;
     color:#325C45;
+
 }
 
 nav{
@@ -48,13 +60,14 @@ nav{
     
 }
 
-nav > li{
+nav > a{
     display: inline-block;
     margin-right: 30px;
+    color: white;
 
 }
 
-nav > li:hover{
+nav > a:hover{
     text-decoration: underline ;
 }
 
@@ -74,6 +87,8 @@ main{
     background-color: #325C45;
     text-align: center;
     padding: 10px;
+    width: 600px;
+    margin: auto;
 }
 
 p{
@@ -91,12 +106,16 @@ aside{
     background-color: #C5EBD6;
     border-radius: 10px;
     box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
+
 
 footer{
     background-color: #325C45;
     padding: 5px;
-    margin: 10px;
+    margin: 20px;
     text-align: center;
     color: black;
 }
