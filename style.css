@@ -72,6 +72,7 @@ nav > a{
     color: white;
     text-decoration: none;
     font-weight: bold;
+    transition-duration: 0.5s ;
 
 }
 
@@ -98,6 +99,19 @@ main > img{
     width: 100%;
 }
 
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #325C45;
+    background-color: #3DDC84;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+
+main a:hover{
+    text-decoration: underline;
+}
+
 .container{
     text-align: center;
 }
@@ -111,10 +125,13 @@ main > img{
 }
 
 p{
+    margin: 15px 0px;
     text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
 }
 
-aside > h2{
+aside > h3{
     background-color: #3DDC84 ;
     padding: 10px;
     color: white;
@@ -129,14 +146,20 @@ aside{
     margin-bottom: 30px;
 }
 
+aside > ul{
+    list-style-position: inside;
+    list-style-type: '\2714\00A0\00A0';
+    columns: 2;
+}
+
 
 
 footer{
     background-color: #325C45;
     padding: 5px;
-    margin: 20px;
+    margin: 20px 0px 0px 0px;
     text-align: center;
-    color: black;
+    color: white;
 }
 
 footer > p{
